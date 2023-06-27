@@ -38,7 +38,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: calc(40% - 20px);
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,8 +66,7 @@ body {
 }
 
 .right-section {
-    width: calc(60% + 20px);
-    padding: 10px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -81,7 +80,6 @@ body {
 }
 
 form {    
-    position: relative;
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.205);
@@ -90,8 +88,8 @@ form {
     height: 52%;
     background-color: rgba(255, 255, 255, 0.801);
     overflow: hidden;
-    border-radius: 6px;
     box-shadow: 0 0 10px 0 black;
+    margin-top: 30px;
 }
 
 form h2 {
