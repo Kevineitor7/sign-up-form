@@ -5,8 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+        <div class="left-section">
+            <div class="name">
+                <p>Arston</p>
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="arston">
+            </div>
+            <div class="pic-author">
+                <p>Photo by <a href="https://unsplash.com/photos/bTzpau9mKT4" target="_blank">Halie West</a></p>
+            </div>
+        </div>
+        <div class="right-section">
+            <p class="elemental">Elemental</p>
+            <form action="" method='get'>
+                <h2>Sign up</h2>
+              <div class="sign-up">
+                <div>
+                    <label for="fname">First Name</label>
+                </div> 
+                <input type="text" name="fname" id="fname" placeholder="John" required>
+                <div>
+                    <label for="lname">Last Name</label>
+                </div> 
+                <input type="text" name="lname" id="lname" placeholder="Johnson" required>
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <input type="email" name="email" id="email" placeholder="suanfenson@mail.com" required>
+                <div>
+                    <label for="phone">Phone Number</label>
+                </div> 
+                <input type="tel" name="phone" id="phone" maxlength="10" placeholder="777-7777-777" pattern="[0-9]{10}" required>
+                <div>
+                    <label for="pass">Password</label>
+                </div>
+                <input type="password" name="pass" id="pass" minlength="6" required>
+                <div>
+                    <label for="confpass">Confirm password</label>
+                </div>  
+                <input type="password" name="confpass" id="confpass" minlength="6" required>
+                <input type="submit" name="submit" id="submit" value="Create Account">
+              </div>
+            </form>
+            <div class="author">
+                <p><a href="https://github.com/Kevineitor7/sign-up-form" target="_blank">Kevin Campa</a></p>
+            </div>
+        </div>
 </body>
 </html>
