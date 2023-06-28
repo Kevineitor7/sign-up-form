@@ -25,7 +25,7 @@ body {
 
 .name > p {
     font-family: 'Covered By Your Grace', cursive;
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
 }
 
@@ -61,10 +61,6 @@ body {
     color:lightsalmon;
 }
 
-.author {
-    margin-bottom: 0;
-}
-
 .right-section {
     width: 60%;
     display: flex;
@@ -77,6 +73,13 @@ body {
 
 .elemental {
     font-size: 1.6rem;
+    margin-top: 4px;
+}
+
+.text {
+    font-size: 1.8rem;
+    width: 70%;
+    text-align: center;
 }
 
 form {    
@@ -89,7 +92,6 @@ form {
     background-color: rgba(255, 255, 255, 0.801);
     overflow: hidden;
     box-shadow: 0 0 10px 0 black;
-    margin-top: 30px;
 }
 
 form h2 {
@@ -107,6 +109,10 @@ form input {
     height: 23px;
 }
 
+form input::placeholder {
+    opacity: 0.6;
+}
+
 form label {
     color: rgb(70, 67, 67);
 }
@@ -120,7 +126,6 @@ form label {
 }
 
 input[type="submit"] {
-    border: none;
     padding: 6px;
     background-color: #596D48;
     color: white;
@@ -143,10 +148,10 @@ form input:focus {
 }
 
 form input:valid {
-    border: 1px solid green;
+    border-color: green;
 }
 
 form input:invalid {
-    border: 1px solid red
+    border-color: red
 }
 
